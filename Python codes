@@ -1,2 +1,554 @@
 message="Hello python world"
 print(message)
+
+aliens = []
+for alien_number in range(30):
+  new_alien = {'colour':'green','points':'15','speed':'slow'}
+  aliens.append(new_alien)
+
+
+alien_0 = {'colour':'green','points':'15'}
+alien_1 = {'colour':'yellow','points':'25'}
+alien_2 = {'colour':'pink','points':'35'}
+alien_3 = {'colour':'purple','points':'45'}
+alien_4 = {'colour':'brown','points':'55'}
+alien_5 = {'colour':'red','points':'95'}
+alien_6 = {'colour':'grey','points':'135'}
+alien_7 = {'colour':'black','points':'175'}
+alien_8 = {'colour':'white','points':'200'}
+alien_9 = {'colour':'blue','points':'275'}
+alien_10 = {'colour':'silver','points':'500'}
+alien_11= {'colour':'gold','points':'15 555'}
+alien_12= {'colour':'Diamond','points':'25 555'}
+alien_13 = {'colour':'Emerald','points':'55 555'}
+aliens = [alien_0,alien_1,alien_2,alien_3,alien_4,alien_5,alien_6,alien_7,alien_8,alien_9,alien_10,alien_11,alien_12,alien_13]
+for alien in aliens:
+  print(alien)
+  
+  
+  
+
+favourite_languages = {
+    'Sufyan': 'English',
+    'Daud': 'Arabic',
+    'Noor': 'Pashto',
+    'Idrees': 'Arabic',
+    'Rayyan': 'Pashto'
+}
+people = ['Sufyan','Idrees','Daud','Noor','Rayyan','Shaima','Hasna']
+for person in people:
+  if person in favourite_languages.keys():
+    print(f"Hey, {person.title()}, thankyou for coming to the party.")
+  else:
+    print(f"Hey, {person.title()}, may i inquire as to why you were unable to attend the party.")
+
+
+
+
+
+
+rivers = {
+    'Indus': 'Pakistan',
+    'Nile': 'Egypt',
+    'Amazon': 'Brazil',
+    'Yangtse': 'China',
+}
+
+for river, country in rivers.items():
+    print(f"The {river.title()} runs through {country}.")
+
+print("\n")
+
+for river in rivers.keys():
+  print(river.title())
+for country in rivers.values():
+  print(country.title())
+
+rivers = {
+    'Indus': 'Pakistan',
+    'Nile': 'Egypt',
+    'Amazon': 'Brazil',
+    'Yangtse': 'China',
+}
+
+for river, country in rivers.items():
+    print(f"The {river.title()} runs through {country}.")
+
+
+
+
+
+
+glossary = {
+    'string': 'sequence of characters',
+    'boolean': 'values which are - True and False',
+    'lists': 'mutable ordered list of elements',
+    'tuples': 'immutable ordered list of elements',
+    'dictionaries': 'collection of key-value-pairs',
+}
+
+for key, value in glossary.items():
+  print(f"{key.title()}: {value}")
+
+
+
+
+
+favourite_languages = {
+    'Sufyan': 'English',
+    'Daud': 'Arabic',
+    'Noor': 'Pashto',
+    'Idrees': 'Arabic',
+    'Rayyan': 'Pashto'
+}
+print("These are some of the languages you can choose from:")
+for language in set(favourite_languages.values()):
+  print(language.title())
+
+
+
+
+
+
+favourite_languages = {
+    'Sufyan': 'English',
+    'Daud': 'Arabic',
+    'Noor': 'Pashto',
+    'Idrees': 'Arabic',
+    'Rayyan': 'Pashto'
+}
+print("These are some of the languages you can choose from:")
+for language in favourite_languages.values():
+  print(language.title())
+
+
+
+
+
+favourite_languages = {
+    'Sufyan': 'English',
+    'Daud': 'Arabic',
+    'Noor': 'Pashto',
+    'Idrees': 'Arabic',
+    'Rayyan': 'Pashto'
+}
+for name, language in sorted(favourite_languages.items()):
+  print(f"{name.title()}, thank you for loving the {language.title()} language.\n")
+
+
+
+
+
+favourite_languages = {
+    'Sufyan': 'English',
+    'Daud': 'Arabic',
+    'Noor': 'Pashto',
+    'Idrees': 'Arabic',
+    'Rayyan': 'Pashto'
+}
+favourite = ['Sufyan', 'Idrees', 'Daud', 'Noor']
+
+for name, language in favourite_languages.items():
+    print(f"Hi {name.title()}.")
+    if name in favourite:
+        print(f"I see you love {language} language.\n")
+
+
+
+
+
+
+favourite_languages = {
+    'Sufyan': 'English',
+    'Daud': 'Arabic',
+    'Noor': 'Pashto',
+    'Idrees': 'Arabic'
+}
+for name, language in favourite_languages.items():
+  print(f"{name.title()}'s favourite language is {language.title()}.\n")
+
+
+
+
+
+
+favourite_languages = {
+    'Sufyan': 'English',
+    'Daud': 'Arabic',
+    'Noor': 'Pashto',
+    'Idrees': 'Arabic'
+}
+for k, v in favourite_languages.items():
+  print(f"\nk: {k}")
+  print(f"v: {v}")
+
+
+
+
+
+
+favourite_languages = {
+    'Sufyan': 'English',
+    'Daud': 'Arabic',
+    'Noor': 'Pashto',
+    'Idrees': 'Arabic'
+}
+for k, v in favourite_languages.items():
+  print(f"\nkey: {k}")
+  print(f"value: {v}")
+
+
+
+
+
+favourite_languages = {
+    'Sufyan': 'English',
+    'Daud': 'Arabic',
+    'Noor': 'Pashto',
+    'Idrees': 'Arabic'
+}
+for key, value in favourite_languages.items():
+  print(f"\nkey: {key}")
+  print(f"value: {value}")
+
+
+
+
+
+
+favourite_languages = {
+    'Sufyan': 'English',
+    'Daud': 'Arabic',
+    'Noor': 'Pashto',
+    'Idrees': 'Arabic'
+}
+print(f"Sufyan:{favourite_languages['Sufyan']}.\n")
+print(f"Daud:{favourite_languages['Daud']}.\n")
+print(f"Noor:{favourite_languages['Noor']}.\n")
+print(f"Idrees:{favourite_languages['Idrees']}.\n")
+
+
+
+
+
+
+favourite_languages = {
+    'Sufyan': 'English',
+    'Daud': 'Arabic',
+    'Noor': 'Pashto',
+    'Idrees': 'Arabic'
+}
+print(f"Sufyan:{favourite_languages['Sufyan']}")
+print(f"Daud:{favourite_languages['Daud']}")
+print(f"Noor:{favourite_languages['Noor']}")
+print(f"Idrees:{favourite_languages['Idrees']}")
+
+
+
+
+
+
+favourite_languages ={
+    'Sufyan': 'English',
+    'Daud': 'Arabic',
+    'Noor': 'Pashto',
+    'Idrees': 'Arabic'
+}
+
+print(favourite_languages.get('Sufyan','No such user.'))
+
+
+
+
+
+
+
+favourite_languages = {
+    'Sufyan': 'English',
+    'Daud': 'Arabic',
+    'Noor': 'Pashto',
+    'Idrees': 'Arabic'
+}
+
+print(favourite_languages.get('Sufyan'))
+
+
+
+
+
+favourite_languages = {
+    'Sufyan': 'English',
+    'Daud': 'Arabic',
+    'Noor': 'Pashto',
+    'Idrees': 'Arabic'
+}
+
+print(favourite_languages.get('Rayyan'))
+
+
+
+
+
+
+favourite_languages ={
+    'Sufyan':'English',
+    'Daud':'Arabic',
+    'Noor':'Pashto',
+    'Idrees':'Arabic'
+}
+language=favourite_languages['Sufyan'].title()
+print(f"Sufyan's favourite language is {favourite_languages['Sufyan']}")
+
+
+
+
+alien_0 ={'x_position': '20', 'y_position': '50', 'speed': 'Fast'}
+print(alien_0)
+del alien_0['speed']
+print(alien_0)
+
+
+
+
+alien_0 = {'x_position': '20', 'y_position': '50', 'speed': 'Fast'}
+print(f"Hello, your position is {alien_0['x_position']}.")
+
+if alien_0['speed'] == 'Slow':
+    x_increment = 1
+elif alien_0['speed'] == 'Medium':
+    x_increment = 2
+else:
+    x_increment = 3
+
+alien_0['x_position'] = int(alien_0['x_position']) + x_increment
+print(f"New position: {alien_0['x_position']}.")
+
+
+
+
+
+
+
+name_number = { 'name':'Sufyan'}
+print(f"Hello how are you {name_number['name']}")
+name_number['name']='Idrees'
+print(f"Hello how are you {name_number['name']}")
+
+
+
+
+
+
+name_number = { 'name':'Sufyan'}
+print(name_number['name'])
+name_number['name']='Idrees'
+print(name_number['name'])
+
+
+
+
+
+
+name_number = { 'name':'Sufyan','number':'55'}
+name_number['alien_colour']='Green'
+name_number['money']='90$'
+print(name_number)
+
+
+
+
+
+name_number = { 'name':'Sufyan','number':'55'}
+new_number=name_number['number']
+print(f"Hello you have earned {name_number['number']} points")
+
+
+
+
+
+name_number = { 'name':'Sufyan','number':'55'}
+print(name_number['name'])
+print(name_number['number'])
+
+
+
+
+
+numbers = list(range(0,10))
+for number in numbers:
+    if number == 1:
+        print(f"{number}st")
+    elif number == 2:
+        print(f"{number}nd")
+    elif number == 3:
+        print(f"{number}rd")
+    else:
+        print(f"{number}th")
+
+
+
+
+current_names = ['Sufyan','Daud','Noor','Idrees','Safia']
+new_names = ['Sumayyah','Shahid','Fayaaz','Ahmed','Idrees']
+for new_name in new_names:
+  if new_name in current_names:
+    print(f"Hello {new_name} the name you gave is used please give another name.")
+  else:
+    print(f"Hello {new_name} your this name will be printed out.")
+
+
+
+
+
+names = []
+for name in names:
+   if name == 'Sufyan':
+     print(f"Hello {name}, could you come for dinner to my house?")
+   else:
+     print(f"Hello {name}, thank you for coming to the stadium.")
+else:
+  print("We need to find some users!")
+
+
+
+
+
+
+names = ['Sufyan', 'Daud', 'Safia']
+for name in names:
+   if name == 'Sufyan':
+     print(f"Hello {name}, could you come for dinner to my house?")
+   else:
+     print(f"Hello {name}, thank you for coming to the stadium.")
+
+
+
+
+
+
+available_toppings=['Mushrooms','Pepparoni','Extra cheese','Grapes','Cake','Fanta','7up']
+
+requested_toppings=['French fries','Pepparoni','Extra cheese']
+
+for requested_topping in requested_toppings:
+  if requested_topping in available_toppings:
+    print(f"Adding {requested_topping}")
+  else:
+    print(f"Sorry we donot have {requested_topping}")
+
+print("\nFinished making your pizza")    
+
+
+
+
+
+
+requested_toppings = []
+if requested_toppings:
+   for requested_topping in requested_toppings:
+     if requested_topping=='mushrooms':
+       print("Sorry but we are out of mushrooms")
+     else:
+       print(f"Adding {requested_topping}")
+        
+   print("\nFinished making your pizza")
+else:
+  print("Are you sure you want a plain pizza?")(540710)
+
+
+
+
+
+
+requested_toppings = ['mushrooms','onions','extra cheese']
+for requested_topping in requested_toppings:
+  if requested_topping=='mushrooms':
+    print("Sorry but we are out of mushrooms")
+  else:
+       print(f"Adding {requested_topping}")
+  
+print("\nFinished making your pizza")
+
+
+
+
+
+
+requested_toppings = ['mushrooms','onions','extra cheese']
+for requested_topping in requested_toppings:
+  print(f"Adding {requested_topping}")
+print("\nFinished making your pizza")
+
+
+
+
+
+sentence = 'After my breathing came to its normal place the doctors felt comfortable \nand took me out of the coma.When i woke up i realized that \ni have lost my ability to smell as a test the nurse asked \nme to blow my nose and sniff an apple juice but when i blowed air \nin it went through the fractures into my eye which throw my left eye out \nafter that all i returned home with a broken nose and a bulging eye.\nThese months were like that i felt like my life was on a pause.\nMy dad had played the manitor baseball for ST Louis cardin and i \nwanted to play a professional game also so the first thing i wanted \nto do after i am going to be good is to play baseball but the surprise was when i returned to play \ni was thrown out of the team i returned to my car crying.\nAfter 1 year of doubting on myself i finally i thought about to gather a team.\nAfter my injury by two years i begin going to college where i \nam going to learn about surprise from small habits for the first time'
+print(f"Hello i would like to complete my story so lets begin.\n{sentence}")
+
+
+
+
+
+motorcycles = ['Suzuki', 'Yamaha', 'Ducati']
+motorcycles.append('Honda')
+
+for i in range(len(motorcycles)):
+    motorcycles[i] = motorcycles[i].upper()
+
+print(motorcycles)
+
+
+
+
+
+motorcycles = ['Suzuki', 'Yamaha', 'Ducati']
+motorcycles.append('Honda')
+
+for i in range(len(motorcycles)):
+    motorcycles[i] = motorcycles[i].lower()
+
+print(motorcycles)
+
+
+
+
+
+motorcycles = ['Suzuki', 'Yamaha', 'Ducati']
+motorcycles.append('Honda')
+
+for i in range(len(motorcycles)):
+    motorcycles[i] = motorcycles[i].title()
+
+print(motorcycles)
+
+
+
+
+
+name = ['Sufyan','Idrees','Noor','Daud']
+
+print(f"You are invited to my house today for the dinner {name[0].lower()}")
+print(f"You are invited to my house today for the dinner {name[1].lower()}")
+print(f"You are invited to my house today for the dinner {name[2].lower()}")
+print(f"You are invited to my house today for the dinner {name[3].lower()}")
+
+
+
+
+name = ['Sufyan','Idrees','Noor','Daud']
+print(f"You are invited to my house today for the dinner {name[0].upper()}")
+print(f"You are invited to my house today for the dinner {name[1].upper()}")
+print(f"You are invited to my house today for the dinner {name[2].upper()}")
+print(f"You are invited to my house today for the dinner {name[3].upper()}")
+
+
+
+
+
+name = ['Sufyan','Idrees','Noor','Daud']
+
+print(f"You are invited to my house today for the dinner {name[0].title()}")
+print(f"You are invited to my house today for the dinner {name[1].title()}")
+print(f"You are invited to my house today for the dinner {name[2].title()}")
+print(f"You are invited to my house today for the dinner {name[3].title()}")
