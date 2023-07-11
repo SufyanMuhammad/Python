@@ -1,4 +1,5 @@
-
+Message = {If you want to be a player practice on playin the game you want to be the player of}
+print(Message)
 
 
 
