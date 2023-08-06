@@ -1,6 +1,18 @@
+numbers = [1, 3, 5, 7, 9]
+
+mysum = sum(numbers)
+length = len(numbers)
+mean = mysum / length
+print(mean)
+
+
+print("*******************")
+n=input("Enter Ur Name")
+print("Ur name is....",n)
+
+
 Message = {If you want to be a player practice on playin the game you want to be the player of}
 print(Message)
-
 
 
 alien_0 = {'colour': 'Green', 'health': 100, 'points': 15, 'numbers': 1880}
