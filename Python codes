@@ -1,3 +1,33 @@
+
+
+
+people = {
+    'SufyanIdrees': {
+        'first name': 'Sufyan',
+        'last name': 'Idrees',
+        'location': 'F18',
+    },
+    'IdreesNoor': {
+        'first name': 'Idrees',
+        'last name': 'Noor',
+        'location': 'Dog Hamida',
+    },
+    'NoorMuhammad': {
+        'first name': 'Noor',
+        'last name': 'Muhammad',
+        'location': 'Malakand',
+    },
+}
+
+for username, user_info in people.items():
+    print(f"\nUsername: {username}.")
+    full_name = f"{user_info['first name']} {user_info['last name']}"
+    location = user_info['location']
+    print(f"\nFull name: {full_name.title()}")
+    print(f"\nLocation: {location.title()}")
+
+
+
 numbers = [1, 3, 5, 7, 9]
 
 mysum = sum(numbers)
