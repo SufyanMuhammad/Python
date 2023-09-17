@@ -1,5 +1,40 @@
 
 
+ Blocked_people = ['Hasan','Doctor Tariq','Marie']
+people = ['Mother','Father','Grandfather']
+if people not in Blocked_people:
+  print(f"{people[0].title()} you can send me messages")
+print(f"{people[1].title()} you can send me messages")
+print(f"{people[2].title()} you can send me messages")
+
+
+
+names='Sufyan','Daud','Idrees','Noor','Hassan'
+print(f"Hello {names[0]} how are you")
+print(f"Hello {names[1]} how are you")
+print(f"Hello {names[2]} how are you")
+print(f"Hello {names[3]} how are you")
+print(f"Hello {names[4]} how are you")
+
+
+
+favourite_number="3"
+#print out our favourite_number
+print(f"My favourite number is {favourite_number}")
+
+favourite_name="Sufyan"
+favourite_message="if a person does nothing finds nothing"
+print(f"{favourite_name} once said {favourite_message}")
+
+
+first_name="Sufyan"
+last_name="Idrees"
+print(f"Hello i am {first_name} and {last_name} is my father")
+
+
+name="Sufyan     "
+print(name.rstrip())
+
 
 people = {
     'SufyanIdrees': {
